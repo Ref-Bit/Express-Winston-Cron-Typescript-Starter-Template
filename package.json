@@ -1,0 +1,45 @@
+{
+  "name": "bits",
+  "version": "1.0.0",
+  "description": "A starter template with expressjs & winston & cron & typescript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "estc",
+    "start": "node dist/index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "api",
+    "cors",
+    "cron",
+    "dotenv",
+    "expressjs",
+    "helmet",
+    "morgan",
+    "typescript",
+    "winston"
+  ],
+  "author": "Refaat Bitar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "morgan": "1.10.0",
+    "winston": "3.15.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.7.4",
+    "esbuild": "^0.24.0",
+    "esbuild-node-tsc": "^2.0.5",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2"
+  }
+}
